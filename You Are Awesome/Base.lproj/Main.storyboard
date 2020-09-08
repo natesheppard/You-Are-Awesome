@@ -30,12 +30,17 @@
                                     <action selector="messageButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="87p-QC-omu"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fM5-0P-OMg">
+                                <rect key="frame" x="16" y="176" width="343" height="453"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="messageLable" destination="XVk-yn-S8s" id="CLb-kb-raD"/>
+                        <outlet property="imageView" destination="fM5-0P-OMg" id="W6N-N8-kxT"/>
+                        <outlet property="messageLable" destination="XVk-yn-S8s" id="0J5-cD-do3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
